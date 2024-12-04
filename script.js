@@ -57,9 +57,9 @@ const createRain = () => {
   document.body.appendChild(rainDrop);
 
   // Remove the drop after its animation ends
-  setTimeout(() => rainDrop.remove(), 2000);
+  setTimeout(() => rainDrop.remove(), 5000);
 };
 
 // Create rain at intervals
-setInterval(createRain, 100);
+setInterval(createRain, 50);
 
