@@ -45,12 +45,6 @@ quote-generator/
 This project is deployed using **GitHub Pages**. To access the live version:
 - [Live Demo](https://leonorasherifi.github.io/Quote-Generator/)
 
-To deploy your own version:
-1. Push the project to a GitHub repository.
-2. Go to your repository settings > Pages.
-3. Select the branch (e.g., `main`) and root directory for deployment.
-4. Access your project via the provided GitHub Pages URL.
-
 
 
 
