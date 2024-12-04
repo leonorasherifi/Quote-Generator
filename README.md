@@ -18,11 +18,11 @@ This project is a **Quote Generator** web application that dynamically displays 
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/quote-generator.git
+   git clone https://github.com/leonorasherifi/Quote-Generator.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd quote-generator
+   cd Quote-Generator
    ```
 3. Open `index.html` in your browser:
    ```bash
