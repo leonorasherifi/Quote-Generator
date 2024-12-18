@@ -33,6 +33,12 @@ newQuoteButton.addEventListener('click', displayRandomQuote);
 
 
 // SOUND EFFECT (mute/unmute) ----------------------------------------------------------------------------
+audio.loop = true; // Enable looping
+// Start playback
+audio.play().catch(error => {
+  console.error("Playback failed:", error);
+});
+
 muteButton.addEventListener('click', () => {
   if (audio.muted) {
     audio.muted = false;
@@ -44,6 +50,11 @@ muteButton.addEventListener('click', () => {
 });
 
 
+
+// DELETE
+document.getElementById("newQuoteButton").addEventListener("click", () => {
+  audioElement.play();
+});
 
 
 
