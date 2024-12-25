@@ -50,6 +50,7 @@ setInterval(createRain, 50);
 
 // SOUND EFFECT (mute/unmute) ----------------------------------------------------------------------------
 audio.loop = true; // Enable looping
+audio.muted = true;
 // Start playback
 audio.play().catch(error => {
   console.error("Playback failed:", error);
