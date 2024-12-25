@@ -67,3 +67,12 @@ muteButton.addEventListener('click', () => {
     `;
   }
 });
+
+// Pause audio when the page is not visible
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) {
+    audio.pause();
+  } else if (!audio.muted) {
+    audio.play().catch(error => console.error("Playback failed:", error));
+  }
+});
